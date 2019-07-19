@@ -1,0 +1,44 @@
+{
+  "name": "terminal-gbc-emulator",
+  "version": "0.1.0",
+  "description": "GBC emulator in the terminal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MX-Futhark/terminal-gbc-emulator.git"
+  },
+  "dependencies": {
+    "active-win": "^3.0.0",
+    "ansi": "^0.3.1",
+    "atob": "^2.1.2",
+    "btoa": "^1.2.1",
+    "canvas": "^1.6.12",
+    "color-convert": "^1.9.3",
+    "four-color-ascii-canvas": "^1.0.0",
+    "iohook": "^0.2.0",
+    "jsgbc": "github:ardean/jsGBC-core",
+    "keycode": "^2.2.0",
+    "node-localstorage": "^1.3.1",
+    "speaker": "^0.4.1",
+    "web-audio-api": "^0.2.2"
+  },
+  "iohook": {
+    "targets": [
+      "node-57"
+    ],
+    "platforms": [
+      "win32",
+      "darwin",
+      "linux"
+    ],
+    "arches": [
+      "x64",
+      "ia32"
+    ]
+  }
+}

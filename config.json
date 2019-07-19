@@ -1,0 +1,13 @@
+{
+    "soundEnabled": false,
+    "controls": {
+        "a": "z",
+        "b": "x",
+        "start": "c",
+        "select": "v",
+        "up": "w",
+        "right": "d",
+        "down": "s",
+        "left": "a"
+    }
+}
