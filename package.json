@@ -1,17 +1,28 @@
 {
   "name": "terminal-gbc-emulator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "GBC emulator in the terminal",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MX-Futhark/terminal-gbc-emulator.git"
   },
+  "keywords": [
+    "gbc",
+    "gameboy",
+    "emulator",
+    "terminal",
+    "ascii"
+  ],
+  "author": "Maxime PIA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MX-Futhark/terminal-gbc-emulator/issues"
+  },
+  "homepage": "https://github.com/MX-Futhark/terminal-gbc-emulator#readme",
   "dependencies": {
     "active-win": "^3.0.0",
     "ansi": "^0.3.1",
