@@ -1,5 +1,6 @@
 {
     "soundEnabled": false,
+    "palette": "white-on-black",
     "controls": {
         "a": "z",
         "b": "x",

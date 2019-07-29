@@ -1,6 +1,6 @@
 {
   "name": "terminal-gbc-emulator",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "GBC emulator in the terminal",
   "main": "index.js",
   "scripts": {
@@ -30,7 +30,7 @@
     "btoa": "^1.2.1",
     "canvas": "^1.6.12",
     "color-convert": "^1.9.3",
-    "four-color-ascii-canvas": "^1.0.0",
+    "four-color-ascii-canvas": "^1.1.0",
     "iohook": "^0.2.0",
     "jsgbc": "github:ardean/jsGBC-core",
     "keycode": "^2.2.0",

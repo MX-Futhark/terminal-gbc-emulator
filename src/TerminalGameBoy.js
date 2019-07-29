@@ -69,7 +69,11 @@ module.exports = class TerminalGameBoy extends GameBoy {
     }
 
     _initRenderer () {
-        const renderingProcess = cp.fork(`${__dirname}/display.js`, { stdio: 'inherit' });
+        const renderingProcess = cp.fork(
+            `${__dirname}/display.js`,
+            [this._config.palette].filter(e => !!e),
+            { stdio: 'inherit' }
+        );
         const canvasContext = this._canvas.getContext('2d');
 
         const sendImageData = () => {
